@@ -3,14 +3,15 @@ Title: Home
 Description: This is our index page.
 ---
 
-Home page
+Om mig
 ==========================
 
-The source for this page is in `content/index.md`.
+Marcus Lundstedt 25 år gammal, bor på västkusten i sommarstaden Halmstad
 
-This is a sample home page written in markdown with some frontmatter defined.
+På fritiden gillar jag att träna klättring, umgås med vänner och spela datorspel
 
-This is an exampel test for my video.
+Arbetar på en IT-avdelning med systemförvaltning och läser detta programmet för jag vill lära mig mer om systemutveckling. Arbetar på dagen och studerar på kvällar och helger.
+<br>
+![alt text](assets/img/tylosand.jpg "Logo Title Text 1" ){.tylosand}
 
 * Hello world test
-* Hej

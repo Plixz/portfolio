@@ -41,7 +41,6 @@ body {
 }
 
 /* Title */
-
 .title, .logo {
     padding: 3em 3em 3em 0;
 }
@@ -144,4 +143,8 @@ blockquote {
     margin-left: 1em;
     padding-left: 1em;
     border-left: 0.5em solid #f5f5f5;
+}
+.tylosand
+{
+    width: 1200px;
 }

@@ -1,8 +1,11 @@
 ---
-Logo: image/leaf_256x256.png
-Tagline: My portfolio.
+Logo: assets/img/me.jpg
+Tagline: Marcus Lundstedt.
 Social:
     - title: Link till sidans github repo.
-      url: https://github.com/dbwebb-se/design-v3
+      url: https://github.com/Plixz/portfolio
       icon: github
+    - title: Länk till kurs.
+      url: https://dbwebb.se/design
+      icon: leaf
 ---
