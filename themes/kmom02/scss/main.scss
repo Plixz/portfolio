@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #d3d3d3;
+}
+
+.main {
+    flex: 1 0 auto;
+    width: 64em;
+    margin: 2em auto;
+    color: $font-color;
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+.tylosand {
+    width: 1200px;
+}
+
+@media (max-width: 767px) {
+    .main {
+        width: 96%;
+    }
+
+    .tylosand {
+        display: none !important;
+    }
+}

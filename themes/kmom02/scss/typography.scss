@@ -1,0 +1,27 @@
+html {
+    font-size: 100%;
+}
+
+p {
+    font-size: 1em;
+}
+
+body {
+    line-height: $main-line-height;
+}
+
+p {
+    font-size: $main-font-size;
+    margin-bottom: $magic-number; /* 1.4 * 1.25em vår baseline */
+}
+
+h1 {
+    font-size: 2.8em;
+    margin-bottom: 3.5rem; /* baseline * 2, för att skapa mer utrymme */
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
