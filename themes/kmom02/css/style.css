@@ -6429,7 +6429,7 @@ template {
   justify-content: space-between;
   border-top: 1px solid #222;
   background-color: #444;
-  color: white;
+  color: #fff;
 }
 
 .footer a {
@@ -6443,7 +6443,7 @@ template {
 body {
   display: flex;
   flex-direction: column;
-  background-color: lightgray;
+  background-color: #d3d3d3;
 }
 
 .main {
@@ -6453,7 +6453,8 @@ body {
   color: #000;
 }
 
-.header, .footer {
+.header,
+.footer {
   flex: 0 0 auto;
 }
 
@@ -6469,23 +6470,24 @@ body {
     display: none !important;
   }
 }
-.header, .site-header {
+.header,
+.site-header {
   display: flex;
   justify-content: space-between;
 }
 
-/* Title */
-.title, .logo {
+.title,
+.logo {
   padding: 3em 3em 3em 0;
 }
 
 .title p {
   font-style: italic;
-  color: black;
+  color: #000;
 }
 
 .title h1 {
-  color: black;
+  color: #000;
 }
 
 .title a:visited {
@@ -6493,7 +6495,8 @@ body {
 }
 
 @media (max-width: 767px) {
-  .title, .logo {
+  .title,
+  .logo {
     padding: 1em 1em 1em 0;
   }
   .title {
@@ -6528,6 +6531,134 @@ h1 {
 @media (min-width: 64em) {
   html {
     font-size: 112.5%;
+  }
+}
+/* report.scss */
+.landingpage {
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.kmom-box {
+  text-align: center;
+}
+
+.startpage {
+  display: grid;
+  grid-template-columns: 33% 33% auto;
+  grid-template-rows: 150px 150px 150px 150px 150px;
+  gap: 1em 1em;
+}
+
+.tech-box {
+  text-align: center;
+  padding: 2em;
+  font-size: 25px;
+}
+
+.tech-box:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.titel-tech {
+  grid-column: 1/4;
+  grid-row: 1/1;
+  text-align: center;
+}
+
+.css {
+  grid-column: 1/2;
+  grid-row: 2/2;
+  background-color: #46bb98;
+}
+
+.html {
+  grid-column: 2/4;
+  grid-row: 2/2;
+  background-color: rgb(165, 51, 51);
+}
+
+.javascript {
+  grid-column: 1/3;
+  grid-row: 3/3;
+  background-color: #c3d613;
+}
+
+.php {
+  grid-column: 3/4;
+  grid-row: 3/3;
+  background-color: #F0F8FF;
+}
+
+.python {
+  grid-column: 1/4;
+  grid-row: 4/4;
+  background-color: #B8860B;
+}
+
+.git {
+  grid-column: 1/2;
+  grid-row: 5/5;
+  background-color: #228B22;
+}
+
+.sqlite {
+  grid-column: 2/4;
+  grid-row: 5/5;
+  background-color: #E6E6FA;
+}
+
+@media (max-width: 767px) {
+  .startpage {
+    display: block;
+    padding: 2em;
+    gap: 1em 2em 1em 2em;
+  }
+}
+.technology-start {
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: 100px 400px;
+  gap: 1em 1em;
+}
+
+.tech-box {
+  text-align: center;
+  padding: 2em;
+  font-size: 25px;
+}
+
+.tech-box:hover {
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.lista {
+  grid-column: 1/1;
+  grid-row: 2/2;
+}
+
+.info-box {
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+
+.titel-technology {
+  text-align: center;
+  grid-column: 1/3;
+  grid-row: 1/1;
+}
+
+@media (max-width: 767px) {
+  .lista {
+    display: none !important;
+  }
+  .info-box {
+    grid-column: 1/3;
   }
 }
 blockquote {
@@ -6581,7 +6712,8 @@ pre code {
   padding: 0 1em;
 }
 
-.nav a, .nav-toggle {
+.nav a,
+.nav-toggle {
   color: #333;
 }
 
@@ -6625,6 +6757,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Open Sans", sans-serif;
 }

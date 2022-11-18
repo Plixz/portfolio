@@ -1,0 +1,51 @@
+.technology-start {
+    display: grid;
+    grid-template-columns: 25% auto;
+    grid-template-rows: 100px 400px;
+    gap: 1em 1em;
+}
+
+// .startpage h1 {
+//     // grid-column: span 3;
+//     justify-self: center;
+// }
+
+.tech-box {
+    //justify-self: center;
+    text-align: center;
+    // border: 1px solid #ccc;
+    padding: 2em;
+    font-size: 25px;
+}
+
+.tech-box:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.2);
+}
+.technology {
+
+}
+.lista {
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+}
+.info-box
+{
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+.titel-technology
+{
+    text-align: center;
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+}
+@media (max-width: 767px) {
+    .lista
+    {
+        display: none !important;
+    }
+    .info-box
+    {
+        grid-column: 1 / 3;
+    }
+}
