@@ -5,8 +5,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 @import '../../node_modules/normalize.css/normalize';
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import 'variables';
+@import 'variables-dark';
 @import 'footer';
 @import 'main';
 @import 'header';
@@ -36,3 +35,4 @@ h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
 }
+

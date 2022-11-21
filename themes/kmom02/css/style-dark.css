@@ -4,7 +4,6 @@
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 .fa,
 .fas,
 .far,
@@ -6455,7 +6454,7 @@ body {
 }
 
 .main p {
-  color: #000;
+  color: #8a8c91;
 }
 
 .header,
@@ -6720,7 +6719,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: #333;
+  color: #BB86FC;
 }
 
 .nav-toggle {
@@ -6756,11 +6755,11 @@ pre code {
   }
 }
 body {
-  background-color: #3d5a80;
+  background-color: #333;
 }
 
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Bebas Neue", cursive;
 }
 
 h1,
