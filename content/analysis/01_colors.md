@@ -25,7 +25,7 @@ Resultat
 
 #### Marques Brownlee
 
-Använder sig utav ett akromatiskt färgschema med vitt, svart och olika nyanser av grått. Den röda accentfärgen gör att det blir stor kontrast och det är för att få besökaren att klicka sig vidare till "SHOP NOW". Typsnittet för rubrikerna och brödtexten är sans-serif. 
+Använder sig utav ett akromatiskt färgschema med vitt, svart och olika nyanser av grått. Den röda accentfärgen gör att det blir stor kontrast och det är för att få besökaren att klicka sig vidare till "SHOP NOW". Typsnittet för rubrikerna och brödtexten är sans-serif. Sidan vill med färgerna, typsnitten och desginen förmedela ett tech-tema. 
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #27292A">
@@ -40,7 +40,7 @@ Använder sig utav ett akromatiskt färgschema med vitt, svart och olika nyanser
 
 #### Carl Bildt
 
-Ett monokromatiskt färgschema med färger som är nära varandra i färgcirkeln, i detta fallet blå. Typsnittet för rubrikerna och brödtexten är sans-serif.
+Ett monokromatiskt färgschema med färger som är nära varandra i färgcirkeln, i detta fallet blå. Typsnittet för rubrikerna och brödtexten är sans-serif. Den profil sidan vill förmedela är tydlig, en blogg om världspolitik.
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #4050A5">
@@ -54,7 +54,7 @@ Ett monokromatiskt färgschema med färger som är nära varandra i färgcirkeln
 [Skärmdump](../assets/img/carlbildt.PNG)
 #### Sara Dietschy
 
-Complementary färgschema, färger från olika sidor av färghjulet. Typsnittet för rubrikerna och brödtexten är sans-serif.
+Complementary färgschema, färger från olika sidor av färghjulet. Typsnittet för rubrikerna och brödtexten är sans-serif. Sara vill med sidan kunna visa sin expertis inom området foto, design och det gör hon genom att använda starka färger som fungerar ypperligt tillsammans.
 <table style="border-spacing: 4px; border-collapse: separate">
 <tr>
 <td style="height: 50px; width: 50px; background-color: #F205E2">
@@ -70,7 +70,7 @@ Complementary färgschema, färger från olika sidor av färghjulet. Typsnittet 
 Analys
 -----------------------
 
-Det sidorna ha gemensamt är att man använder sans-serif som typsnitt och man följer tydligt ett färgtema. Man använder inte en mängd olika färger eller typsnitt, utan man håller det stilrent med ett par stycken.
+Det sidorna ha gemensamt är att man använder sans-serif som typsnitt och man följer tydligt ett färgtema. Man använder inte en mängd olika färger eller typsnitt, utan man håller det stilrent med ett par stycken. 
 
 
 Referenser
