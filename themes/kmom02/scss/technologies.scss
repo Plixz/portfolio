@@ -18,6 +18,10 @@
     font-size: 25px;
 }
 
+.tech-box a {
+    color: $tech-color;
+}
+
 .tech-box:hover {
     box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
 }

@@ -9,7 +9,16 @@
     justify-self: center;
 }
 
+.kmom-box a {
+    color: $lista-color;
+}
+
 .kmom-box {
     //justify-self: center;
     text-align: center;
+}
+
+.project {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
 }
