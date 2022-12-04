@@ -14,6 +14,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'report';
 @import 'technologies';
 @import 'technology';
+@import 'gallery';
 
 
 @import 'blockquotes';
@@ -36,4 +37,11 @@ h4,
 h5,
 h6 {
     font-family: 'Open Sans', sans-serif;
+}
+
+img,
+embed,
+object,
+video {
+    max-width: 100%;
 }

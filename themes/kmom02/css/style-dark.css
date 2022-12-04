@@ -6458,7 +6458,7 @@ body {
 }
 
 .main a {
-  color: #BB86FC;
+  color: #bb86fc;
 }
 
 .header,
@@ -6479,6 +6479,24 @@ body {
     display: none !important;
   }
 }
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .header,
 .site-header {
   display: flex;
@@ -6554,7 +6572,7 @@ h1 {
 }
 
 .kmom-box a {
-  color: #BB86FC;
+  color: #bb86fc;
 }
 
 .kmom-box {
@@ -6662,11 +6680,11 @@ h1 {
 .lista {
   grid-column: 1/1;
   grid-row: 2/2;
-  color: #BB86FC;
+  color: #bb86fc;
 }
 
 .technology a {
-  color: #BB86FC;
+  color: #bb86fc;
 }
 
 .info-box {
@@ -6741,7 +6759,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: #BB86FC;
+  color: #bb86fc;
 }
 
 .nav-toggle {
@@ -6791,5 +6809,5 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", sans-serif;
-  color: #BB86FC;
+  color: #bb86fc;
 }

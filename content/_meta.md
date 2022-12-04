@@ -1,5 +1,5 @@
 ---
-Logo: assets/img/me.jpg
+Logo: image/me.jpg
 Tagline: Marcus Lundstedt.
 Social:
     - title: Link till sidans github repo.

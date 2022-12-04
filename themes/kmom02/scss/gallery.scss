@@ -1,0 +1,66 @@
+.gallerypage {
+    display: grid;
+    grid-template-columns: 3;
+    gap: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+// .startpage h1 {
+//     // grid-column: span 3;
+//     justify-self: center;
+// }
+
+
+.gallery-box {
+    text-align: center;
+    font-size: 25px;
+}
+
+.gallery-box a {
+    color: $tech-color;
+}
+
+.titel-gallery {
+    grid-column: 1 / 4;
+    grid-row: 1 / 1;
+    text-align: center;
+}
+
+.ett {
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+
+.tva {
+    grid-column: 2 / 3;
+    grid-row: 2 / 2;
+}
+
+.tre {
+    grid-column: 3 / 4;
+    grid-row: 2 / 2;
+}
+
+.fyra {
+    grid-column: 1 / 2;
+    grid-row: 3 / 3;
+}
+
+.fem {
+    grid-column: 2 / 3;
+    grid-row: 3 / 3;
+}
+
+.sex {
+    grid-column: 3 / 4;
+    grid-row: 3 / 3;
+}
+
+@media (max-width: 767px) {
+    .gallerypage {
+        display: block;
+        padding: 2em;
+        gap: 1em 2em 1em 2em;
+    }
+}

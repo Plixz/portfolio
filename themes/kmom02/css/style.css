@@ -6480,6 +6480,24 @@ body {
     display: none !important;
   }
 }
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .header,
 .site-header {
   display: flex;
@@ -6689,6 +6707,66 @@ h1 {
     grid-column: 1/3;
   }
 }
+.gallerypage {
+  display: grid;
+  grid-template-columns: 3;
+  gap: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gallery-box {
+  text-align: center;
+  font-size: 25px;
+}
+
+.gallery-box a {
+  color: #333;
+}
+
+.titel-gallery {
+  grid-column: 1/4;
+  grid-row: 1/1;
+  text-align: center;
+}
+
+.ett {
+  grid-column: 1/2;
+  grid-row: 2/2;
+}
+
+.tva {
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
+
+.tre {
+  grid-column: 3/4;
+  grid-row: 2/2;
+}
+
+.fyra {
+  grid-column: 1/2;
+  grid-row: 3/3;
+}
+
+.fem {
+  grid-column: 2/3;
+  grid-row: 3/3;
+}
+
+.sex {
+  grid-column: 3/4;
+  grid-row: 3/3;
+}
+
+@media (max-width: 767px) {
+  .gallerypage {
+    display: block;
+    padding: 2em;
+    gap: 1em 2em 1em 2em;
+  }
+}
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6792,4 +6870,11 @@ h4,
 h5,
 h6 {
   font-family: "Open Sans", sans-serif;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
 }
