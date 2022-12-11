@@ -52,5 +52,5 @@ Arbetar på en IT-avdelning med systemförvaltning och läser detta programmet f
 # iframe
 
 <div class="embed-container">
-    <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/gCwjLPBqpa0" frameborder="0" allowfullscreen title="myFrame"></iframe>
 </div>

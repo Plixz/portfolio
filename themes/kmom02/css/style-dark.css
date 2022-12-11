@@ -6428,16 +6428,24 @@ template {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
+  padding: 1.4em;
   background-color: #444;
   color: #fff;
+  align-items: center;
+  color: #bb86fc;
 }
 
 .footer a {
-  color: #222;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer .social {
   font-size: 2rem;
+}
+
+.footer p {
+  color: #fff;
 }
 
 body {
@@ -6497,15 +6505,38 @@ body {
   height: 100%;
 }
 
-.header,
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3b3b3b;
+  padding: 1.4em;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header {
+  border-bottom: solid 3px #000;
+}
+
 .site-header {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
 .title,
 .logo {
-  padding: 3em 3em 3em 0;
+  padding: 1em 1em 1em 0;
+  text-align: center;
+}
+
+.logo {
+  padding-top: 3em;
+}
+
+.logo img {
+  border-radius: 50%;
 }
 
 .title p {
@@ -6514,11 +6545,18 @@ body {
 }
 
 .title h1 {
-  color: #000;
+  color: #fff;
+  margin: 0;
 }
 
-.title a:visited {
+.title a {
   text-decoration: none;
+  margin: 0;
+  margin-left: 1.4em;
+}
+
+.title a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
@@ -6706,6 +6744,67 @@ h1 {
     grid-column: 1/3;
   }
 }
+.gallerypage {
+  display: grid;
+  grid-template-columns: 3;
+  gap: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.gallery-box {
+  text-align: center;
+  font-size: 25px;
+}
+
+.gallery-box a {
+  color: #333;
+}
+
+.titel-gallery {
+  grid-column: 1/4;
+  grid-row: 1/1;
+  text-align: center;
+}
+
+.ett {
+  grid-column: 1/2;
+  grid-row: 2/2;
+}
+
+.tva {
+  grid-column: 2/3;
+  grid-row: 2/2;
+}
+
+.tre {
+  grid-column: 3/4;
+  grid-row: 2/2;
+}
+
+.fyra {
+  grid-column: 1/2;
+  grid-row: 3/3;
+}
+
+.fem {
+  grid-column: 2/3;
+  grid-row: 3/3;
+}
+
+.sex {
+  grid-column: 3/4;
+  grid-row: 3/3;
+}
+
+@media (max-width: 767px) {
+  .gallerypage {
+    display: block;
+    padding: 2em;
+    gap: 1em 2em 1em 2em;
+  }
+}
 blockquote {
   font-style: italic;
   margin-left: 1em;
@@ -6759,7 +6858,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: #bb86fc;
+  color: #fff;
 }
 
 .nav-toggle {

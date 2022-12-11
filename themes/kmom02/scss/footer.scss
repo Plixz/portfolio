@@ -4,14 +4,22 @@
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #222;
+    padding: $magic-number;
     background-color: $footer-background-color;
     color: $footer-text-color;
+    align-items: center;
+    color: $h-color;
 }
 
 .footer a {
-    color: #222;
+    color: $footer-icon;
+    text-decoration: none;
 }
 
 .footer .social {
     font-size: 2rem;
+}
+
+.footer p {
+    color: $footer-icon;
 }

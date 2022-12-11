@@ -1,6 +1,6 @@
 ---
 Logo: image/me.jpg
-Tagline: Marcus Lundstedt.
+# Tagline: Marcus Lundstedt.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/Plixz/portfolio

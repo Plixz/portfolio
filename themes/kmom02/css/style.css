@@ -6429,16 +6429,24 @@ template {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid #222;
+  padding: 1.4em;
   background-color: rgb(70, 93, 114);
+  color: #fff;
+  align-items: center;
   color: #fff;
 }
 
 .footer a {
-  color: #222;
+  color: #fff;
+  text-decoration: none;
 }
 
 .footer .social {
   font-size: 2rem;
+}
+
+.footer p {
+  color: #fff;
 }
 
 body {
@@ -6498,15 +6506,38 @@ body {
   height: 100%;
 }
 
-.header,
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0251bb;
+  padding: 1.4em;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header {
+  border-bottom: solid 3px #4f99e7;
+}
+
 .site-header {
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 
 .title,
 .logo {
-  padding: 3em 3em 3em 0;
+  padding: 1em 1em 1em 0;
+  text-align: center;
+}
+
+.logo {
+  padding-top: 3em;
+}
+
+.logo img {
+  border-radius: 50%;
 }
 
 .title p {
@@ -6515,11 +6546,18 @@ body {
 }
 
 .title h1 {
-  color: #000;
+  color: #fff;
+  margin: 0;
 }
 
-.title a:visited {
+.title a {
   text-decoration: none;
+  margin: 0;
+  margin-left: 1.4em;
+}
+
+.title a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 767px) {
@@ -6713,6 +6751,7 @@ h1 {
   gap: 0.5em;
   margin-left: auto;
   margin-right: auto;
+  justify-content: center;
 }
 
 .gallery-box {
@@ -6802,6 +6841,30 @@ pre code {
   line-height: 1.4;
 }
 
+body {
+  background-color: #c8d6e9;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
+}
+
+img,
+embed,
+object,
+video {
+  max-width: 100%;
+}
+
 .slide {
   overflow-y: hidden !important;
   transition: height 0.5s ease-in !important;
@@ -6820,7 +6883,7 @@ pre code {
 
 .nav a,
 .nav-toggle {
-  color: rgb(22, 21, 21);
+  color: rgb(255, 255, 255);
 }
 
 .nav-toggle {
@@ -6854,27 +6917,4 @@ pre code {
     text-align: center;
     cursor: pointer;
   }
-}
-body {
-  background-color: #c8d6e9;
-}
-
-* {
-  font-family: "Roboto", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Open Sans", sans-serif;
-}
-
-img,
-embed,
-object,
-video {
-  max-width: 100%;
 }
